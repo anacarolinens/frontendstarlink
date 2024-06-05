@@ -52,7 +52,7 @@ function StartlinkList() {
 
     return (
         <div>
-            <h1>Satélites da Starlink</h1>
+            <h1 style={{textAlign: 'center', margin:'20px 0'}}>Satélites da Starlink</h1>
             <MapContainer center={[0,0]} zoom={2} style={{height: '60vh', width:'100%' }}>
                 <TileLayer
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
